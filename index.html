@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+
+  <!-- Google Fonts: Poppins -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Animation container (background) -->
+  <div id="tsparticles"></div>
+
+  <header>
+    <nav class="front">
+      <div class="logo">&lt;Developer/&gt;</div>
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        aria-label="Toggle navigation menu"
+      >
+        &#9776;
+      </button>
+      <ul class="nav-list" id="nav-list">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="hero" id="home">
+      <p class="opener">Hello, I'm</p>
+      <h1>Frontend Developer</h1>
+      <p>
+        I create
+        <span class="animated-gradient">beautiful</span> &
+        <span class="animated-gradient">functional</span> web experiences
+      </p>
+    </div>
+  </header>
+
+  <main>
+    <section id="intro">
+      <p>
+        Passionate about crafting clean and user-friendly web interfaces using
+        modern technologies. I focus on building interactive and scalable web
+        experiences that delight users and provide seamless digital
+        interactions.
+      </p>
+    </section>
+
+    <section id="about">
+      <h1 class="about-me"> About Me </h1>
+      <div class="about-content">
+        <img class="about-image" src="./photo.jpg" alt="Jalal-Dine" />
+
+        <div class="about-text">
+          <h2 class="me">Passionate Frontend Developer</h2>
+          <p class="me">
+            Passionate about creating intuitive and engaging web experiences.
+            Continuously learning modern frontend technologies like React and
+            TypeScript, with a focus on improving my skills in building scalable
+            and interactive applications
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects-section">
+  <h2>My Projects</h2>
+
+  <!-- TinDog -->
+  <div class="project">
+    <div class="project-info">
+      <h3>TinDog</h3>
+      <p>
+        A fun, responsive website inspired by Tinder — but for dogs! Built
+        using HTML, CSS, and Bootstrap.
+      </p>
+      <div class="project-links">
+        <a href="https://dinelegacy.github.io/tinDog/" target="_blank">Live Demo</a>
+        <a href="https://github.com/dinelegacy/tinDog" target="_blank">GitHub Code</a>
+      </div>
+    </div>
+    <div class="project-image">
+      <img src="./tindog-hero.png" alt="TinDog Screenshot" />
+    </div>
+  </div>
+
+  <!-- Dicee Game -->
+  <div class="project">
+    <div class="project-info">
+      <h3>Dicee Game</h3>
+      <p>
+        A fun dice rolling game for two players. Built with HTML, CSS, and JavaScript.
+        Click “Roll Dice” to see who wins!
+      </p>
+      <div class="project-links">
+        <a href="https://dinelegacy.github.io/Dicee-Game/" target="_blank">Live Demo</a>
+        <a href="https://github.com/dinelegacy/Dicee-Game" target="_blank">GitHub Code</a>
+      </div>
+    </div>
+    <div class="project-image">
+      <img src="./dicee-game.png" alt="Dicee Game Screenshot" />
+    </div>
+  </div>
+
+  <!-- Drum Kit -->
+  <div class="project">
+    <div class="project-info">
+      <h3>Drum Kit</h3>
+      <p>
+        An interactive drum kit that plays sounds when you press keys on your keyboard.
+        Built with HTML, CSS, and JavaScript.
+      </p>
+      <div class="project-links">
+        <a href="https://dinelegacy.github.io/Drum-kit/" target="_blank">Live Demo</a>
+        <a href="https://github.com/dinelegacy/Drum-kit" target="_blank">GitHub Code</a>
+      </div>
+    </div>
+    <div class="project-image">
+      <img src="./drum-kit.png" alt="Drum Kit Screenshot" />
+    </div>
+  </div>
+</section>
+
+
+
+
+      <!-- Skills Cards -->
+      <div class="skills-cards">
+        <div class="skill-card">
+          <h3>💻 Clean Code</h3>
+          <p>
+            I write maintainable, scalable code following best practices and
+            modern standards.
+          </p>
+        </div>
+        <div class="skill-card">
+          <h3>⚡ Performance</h3>
+          <p>
+            Optimizing applications for speed and efficiency across all devices
+            and browsers.
+          </p>
+        </div>
+        <div class="skill-card">
+          <h3>🤝 Collaboration</h3>
+          <p>
+            Strong team player with excellent communication skills and agile
+            methodology experience.
+          </p>
+        </div>
+        <div class="skill-card">
+          <h3>🧩 Problem Solving</h3>
+          <p>
+            Skilled at analyzing complex challenges and delivering practical,
+            innovative solutions.
+          </p>
+        </div>
+      </div>
+
+      <!-- Technologies Tags -->
+      <div class="tech-tags">
+        <div class="tech-tag">
+          <h2>Technologies I Work With</h2>
+          <div class="spans">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>Git</span>
+            <span>GitHub</span>
+            <span>Figma</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!-- Contact -->
+<section id="contact">
+  <h2>Contact Me</h2>
+  <p>Interested in working together or have a question? Let’s connect!</p>
+  <div class="contact-links">
+    <a href="mailto:jalal-dine.karim@hyperisland.se" class="btn">
+      <i class="fas fa-envelope"></i> Email Me
+    </a>
+    <a href="https://www.linkedin.com/in/jalal-dine-k-0724971a3/" target="_blank" class="btn">
+      <i class="fab fa-linkedin"></i> LinkedIn
+    </a>
+    <a href="https://github.com/Dinelegacy" target="_blank" class="btn">
+      <i class="fab fa-github"></i> GitHub
+    </a>
+  </div>
+</section>
+
+
+  </main>
+
+  <footer>
+  <p>&copy; 2025 Jalal-Dine Karim. All rights reserved.</p>
+  <div class="socials">
+    <a href="https://github.com/Dinelegacy" target="_blank"><i class="fab fa-github"></i> GitHub</a> |
+    <a href="https://www.linkedin.com/in/jalal-dine-k-0724971a3/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a> |
+    <a href="mailto:jalal-dine.karim@hyperisland.se"><i class="fas fa-envelope"></i> Email</a>
+  </div>
+  <a href="#home" class="back-to-top">↑ Back to top</a>
+</footer>
+
+
+  <!-- JavaScript link -->
+<script src="script.js"></script>
+
+</body>
+</html>
