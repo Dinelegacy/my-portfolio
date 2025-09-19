@@ -39,16 +39,6 @@ header {
 }
 
 
-@keyframes gradient-animation {
-    0% {
-        background-position: 0% 0%;
-    }
-
-    100% {
-        background-position: 100% 0%;
-    }
-}
-
 .opener {
     color: aqua;
     font-size: 1.3rem;
@@ -122,7 +112,16 @@ nav {
 }
 
 @media (max-width: 768px) {
-    header p {
+
+.spans {
+  
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: center;
+}
+
+header p {
         font-size: 1.2rem;
         
         line-height: 1.5;
@@ -176,6 +175,7 @@ nav {
             
         }
 
+    
         
         }
 
@@ -351,6 +351,7 @@ nav {
     display: flex;
     justify-content: center;
     gap: 10px;
+    align-items: center;
 }
 
 /* Projects Section */
@@ -518,32 +519,4 @@ footer .back-to-top:hover {
 }
 
 
-/* sections  on small screens */
-@media (max-width: 375px) {  
-  .projects-section,
-  #contact {
-    padding-left: 15px;   
-    padding-right: 15px;
-    
-  }
 
-  .project,
-  .contact-links {
-    margin-left: 0;
-    margin-right: 0;
-  }
-  .contact-links{
-    text-align: center;
-  }
-
-  .project-image {
-    max-width: 100%;
-  }
-
-  .tech-tags {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-
-
-}
