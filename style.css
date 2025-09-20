@@ -173,11 +173,7 @@ header p {
            
             max-width: 250px;
             
-        }
-
-    
-        
-        }
+        } 
 
         .project-image img[alt="TinDog Screenshot"] {
             width: 100%;
@@ -196,8 +192,6 @@ header p {
     .project-links a {
         margin-bottom: 10px;
     }
-
-    
 
     .about-content {
     
@@ -237,7 +231,7 @@ header p {
         display: block;
     }
 
-
+}
 .about-me {
     text-align: center;
 }
